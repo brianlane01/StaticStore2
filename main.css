@@ -1,0 +1,371 @@
+body{
+    background: black;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    color: rgb(96, 90, 92);
+}
+
+.navbar-brand img{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
+.nav{
+    position:relative;
+    left: 15rem;
+}
+.nav-link img{
+    width:35px;
+    height: 35px;
+    
+}
+
+.nav-link2 img{
+    width: 70px;
+    height: 52px;
+
+}
+
+.btn{
+    font-size: medium;
+    width: 120px;
+    margin: 10px;
+    color: black;
+}
+
+.login{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: medium;
+}
+
+.btn img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.login:hover{
+    color: white;
+
+}
+
+.headerMenu{
+    background: rgb(6, 6, 6) url(./Assets/poke1.jpeg) no-repeat center ;
+    background-size: 800px 300px;
+    height: 15rem;
+
+}
+
+h1#title0{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(250, 248, 248);
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-shadow: rgb(90, 235, 179) 1px 0 10px;
+    text-align: center;
+    /* text-shadow: 3px 3px 3px black; */
+}
+h3#title1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(252, 247, 247);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 2rem;
+}
+li{
+    display: inline-block;
+}
+li img#pokeCardLogo{
+    width:100px;
+    height:50px;
+    background: rgb(20, 20, 21);
+}
+
+li img#pokeToy{
+    width:100px;
+    height:60px;
+    background: rgba(251, 247, 247, 0);
+}
+
+li img#clothing1{
+    width:100px;
+    height:60px;
+    background: rgba(6, 5, 5, 0);
+}
+
+li img#games1{
+    width:100px;
+    height:60px;
+    background: rgba(6, 5, 5, 0);
+}
+
+
+li a{
+    text-decoration: none;
+    color: rgb(244, 247, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.panel1{
+    background: url(./Assets/featuredGameBackground.jpeg) no-repeat;
+    background-size:cover;
+    position: relative;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #f57e07 groove 8px;
+    border-radius: 2em;
+}
+
+#featuredHeader0{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 5px 5px 7px rgb(238, 114, 12);
+    color: #0c0505;
+}
+
+.panelHeader{
+    padding: .02em 0.2em 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:rgba(12, 10, 10, 0.928);
+}
+
+.game0{
+    width: 25em;
+    left: 2em;
+}
+
+.gameText{
+    border: double black 4px;
+    border-radius: 2em;
+    background-color: rgba(20, 20, 21, 0.379);
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    left: 5em;
+    top: 2em;
+    font-size: larger;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.text1{
+    padding: 2rem;
+}
+
+#buyGame0{
+    position: relative;
+    display: block;
+    margin: 2rem;
+}
+
+.panel2{
+    background: url(./Assets/panel2.jpeg) no-repeat;
+    background-size:cover;
+    position: relative;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ce1717 groove 8px;
+    border-radius: 2em;
+}
+
+#featuredHeader1{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 5px 5px 7px rgb(247, 19, 7);
+    color: #f3e7e7;
+}
+
+.panelHeader1{
+    height:40px;
+    width: 500px;
+    margin: .5em;
+    background: #ede7e74d;
+    border: ridge rgb(235, 230, 230) 3px;
+    border-radius: 4px;
+    padding: .02em 0.2em 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:rgba(214, 15, 15, 0.991);
+}
+
+.card0{
+    width: 25em;
+    left: 2em;
+}
+
+.cardText{
+    border: double black 4px;
+    border-radius: 2em;
+    background-color: rgba(20, 20, 21, 0.379);
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    left: 5em;
+    top: 2em;
+    font-size: larger;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.text1{
+    padding: 2rem;
+}
+
+#buyCard0{
+    position: relative;
+    display: block;
+    margin: 2rem;
+}
+
+.panel3{
+    background: url(./Assets/panel3.jpeg) no-repeat;
+    background-size:cover;
+    position: relative;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #226429 groove 8px;
+    border-radius: 2em;
+}
+
+#featuredHeader2{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 5px 5px 7px rgb(69, 160, 89);
+    color: #101010;
+}
+
+.panelHeader2{
+    height:40px;
+    width: 500px;
+    margin: .5em;
+    border-radius: 4px;
+    padding: .02em 0.2em 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:rgba(10, 9, 10, 0.991);
+}
+
+.toy0{
+    width: 25em;
+    left: 2em;
+    background-color: #0c0505;
+}
+
+.toyText{
+    border: double black 4px;
+    border-radius: 2em;
+    background-color: rgba(20, 20, 21, 0.379);
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    left: 5em;
+    top: 2em;
+    font-size: larger;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.text1{
+    padding: 2rem;
+}
+
+#buyToy0{
+    position: relative;
+    display: block;
+    margin: 2rem;
+}
+
+.panel4{
+    background: url(./Assets/panel4.jpeg) no-repeat;
+    background-size:cover;
+    position: relative;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #b41ca8 groove 8px;
+    border-radius: 2em;
+}
+
+#featuredHeader3{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 5px 5px 7px rgb(213, 17, 210);
+    color: #101010;
+}
+
+.panelHeader3{
+    height:100px;
+    width: 500px;
+    margin: .5em;
+    padding: .02em 0.2em 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:rgba(10, 9, 10, 0.991);
+}
+
+.merch0{
+    width: 25em;
+    left: 2em;
+    background-color: #0c0505;
+}
+
+.merchText{
+    border: groove rgb(145, 69, 244) 4px;
+    border-radius: 2em;
+    background-color: rgba(20, 20, 21, 0.379);
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    left: 5em;
+    top: 2em;
+    font-size: larger;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.text1{
+    padding: 2rem;
+}
+
+#buyMerch0{
+    position: relative;
+    display: block;
+    margin: 2rem;
+}
+
+footer {
+    background-color: #7a7b7b;
+    padding: .05em;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+.footerContent a:hover {
+    text-decoration: underline;
+}
